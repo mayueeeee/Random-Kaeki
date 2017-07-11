@@ -1,9 +1,10 @@
 @import '~antd/dist/antd.css';
-@import 'https://fonts.googleapis.com/css?family=Athiti:400,600';
+/*@import 'https://fonts.googleapis.com/css?family=Athiti:400,600';*/
 
 .App {
   text-align: center;
   font-family: 'Athiti', sans-serif;
+  height : 1.5vh;
 }
 
 h1{
@@ -29,6 +30,15 @@ h1{
   font-size: 40px;
   height: 80px;
   margin-top: 30px;
+}
+.result{
+  margin-top: 30px;
+  font-size: 26px;
+  padding: 0.5vw;
+  /*width: 550px;*/
+  height: 60px;
+  line-height: 38px !important;
+  
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
